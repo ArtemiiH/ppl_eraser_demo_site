@@ -1,0 +1,79 @@
+body {
+    background-color: #eaeaea;
+}
+
+header {
+    top: 0px;
+    z-index: 3;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+    background-color: #183642;
+}
+
+.navbar-brand h1 {
+    color: white;
+    background-color: #73628a;
+    text-shadow: 2px 2px 1px #444;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.main-container {
+    border-radius: 15px;
+    background-color: #cbc5ea;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.custom-file {
+    margin-bottom: 30px;
+}
+
+#uploaded-image-file-title::after {
+    color: #fff;
+    content: "Browse";
+    background-color: #313d5a;
+}
+
+.help-block {
+    color: #616161;
+}
+
+#image-input {
+    cursor: pointer;
+}
+
+#arrow-img {
+    max-height: 75px;
+}
+
+.vertical-align {
+    align-items: center;
+}
+
+#submit-image-button {
+    background-color: #313d5a;
+    background-image: url('../svg/scissors.svg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 55px;
+    top: auto;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.modal-content {
+    background-color: #ffebee;
+}
+
+.modal-button {
+    background-color: #388E3C;
+}
+
+#uploaded-image-preview, #processed-image-preview {
+    height: 400px;
+    object-fit: contain;
+}

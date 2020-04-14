@@ -1,0 +1,5 @@
+{% macro render_nav_item(endpoint, display, active='') %}
+<li class="nav-item{% if request.endpoint == endpoint or active == endpoint %} active{% endif %}">
+    <a class="nav-link" href="{{ url_for(endpoint) }}">{{display}}{% if request.endpoint == endpoint or active == endpoint %}<span class="sr-only">(current)</span>{% endif %}</a>
+</li>
+{% endmacro %}
